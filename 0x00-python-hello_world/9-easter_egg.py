@@ -1,2 +1,4 @@
 #!/usr/bin/python3
-print("".join(__import__('this').s))
+import this
+zen_of_python = this.s.split('\n')
+print('\n'.join(zen_of_python[:19]))
