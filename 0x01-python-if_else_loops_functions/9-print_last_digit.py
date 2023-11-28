@@ -1,7 +1,12 @@
 #!/usr/bin/python3
 def print_last_digit(number):
-    if (number < 0):
-        number *= -1
-    i = number % 10
-    print("{:d}".format(n), end="")
-    return n
+    num = number
+    if num < 0:
+        num *= -1
+    last = num % 10
+
+    while num > 9:
+        last = num % 10
+        num = last
+    print(last, end="")
+    return (last)
