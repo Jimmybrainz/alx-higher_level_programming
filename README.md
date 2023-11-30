@@ -1,1 +1,1 @@
-0x00. Python - Hello, World
+A repo for Python & other projects from the ALX SE program
