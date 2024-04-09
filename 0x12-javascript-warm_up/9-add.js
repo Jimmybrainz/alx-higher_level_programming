@@ -7,5 +7,5 @@ y = parseInt(y);
 console.log(add(x, y));
 
 function add (a, b) {
-	return a + b;
+  return a + b;
 }
